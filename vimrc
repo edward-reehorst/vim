@@ -11,7 +11,6 @@ call plug#begin('~/.vim/plugged')
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'dracula/vim', {'as': 'dracula'}
-    Plug 'kkoomen/vim-doge', {'do': { -> doge#install() } }
     Plug 'justinmk/vim-sneak'
 call plug#end()
 
