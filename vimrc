@@ -7,11 +7,11 @@ endif
 
 " Plugins
 call plug#begin('~/.vim/plugged')
-    " Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'dracula/vim', {'as': 'dracula'}
     Plug 'justinmk/vim-sneak'
+    Plug 'preservim/nerdtree'
 call plug#end()
 
 " source setting files
@@ -21,5 +21,5 @@ source $HOME/.vim/keys/mappings.vim
 source $HOME/.vim/themes/dracula.vim
 source $HOME/.vim/themes/airline.vim
 source $HOME/.vim/plug-config/sneak.vim
-source $HOME/.vim/plug-config/doge.vim
+source $HOME/.vim/plug-config/nerdtree.vim
 
