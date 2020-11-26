@@ -19,6 +19,7 @@ set showtabline=2 " always show tabs
 set laststatus=2 " Always show the status line at the bottom, even if you only have one window open.
 set backspace=indent,eol,start
 set hidden
+set noswapfile
 " This setting makes search case-insensitive when all characters in the string
 " being searched are lowercase. However, the search becomes case-sensitive if
 " it contains any capital letters. This makes searching more convenient.
@@ -49,3 +50,5 @@ set smartindent
 
 " Copy between vim and everything else
 set clipboard=unnamedplus 
+" Enable terminal colors
+set t_Co=256
