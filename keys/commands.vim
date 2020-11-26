@@ -1,0 +1,2 @@
+command! MakeTags !ctags -R .
+

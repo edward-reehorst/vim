@@ -12,6 +12,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'dracula/vim', {'as': 'dracula'}
     Plug 'justinmk/vim-sneak'
     Plug 'preservim/nerdtree'
+    Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 " source setting files
@@ -22,4 +23,5 @@ source $HOME/.vim/themes/dracula.vim
 source $HOME/.vim/themes/airline.vim
 source $HOME/.vim/plug-config/sneak.vim
 source $HOME/.vim/plug-config/nerdtree.vim
+source $HOME/.vim/keys/commands.vim
 

@@ -3,6 +3,12 @@ let g:mapleader = "\<Space>"
 
 set nocompatible
 
+set path+=** " Allows vim to look through the whole project for files
+set wildmenu
+filetype plugin on
+
+set timeoutlen=1000 ttimeoutlen=0 " Removes the delay between insert and normal mode
+
 " Turn on syntax highlighting.
 syntax on
 
