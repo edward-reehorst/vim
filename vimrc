@@ -21,9 +21,9 @@ call plug#end()
 " source $HOME/.vim/plug-config/coc.vim
 source $HOME/.vim/general/settings.vim
 source $HOME/.vim/keys/mappings.vim
+source $HOME/.vim/plug-config/sneak.vim
 source $HOME/.vim/themes/dracula.vim
 source $HOME/.vim/themes/airline.vim
-source $HOME/.vim/plug-config/sneak.vim
 source $HOME/.vim/plug-config/nerdtree.vim
 source $HOME/.vim/plug-config/which-key.vim
 
