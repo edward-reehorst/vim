@@ -14,7 +14,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'preservim/nerdtree'
     Plug 'jiangmiao/auto-pairs'
     Plug 'tpope/vim-fugitive'
-    Plug 'liuchengxu/vim-which-key'
+"    Plug 'liuchengxu/vim-which-key'
 call plug#end()
 
 " source setting files
@@ -25,5 +25,5 @@ source $HOME/.vim/plug-config/sneak.vim
 source $HOME/.vim/themes/dracula.vim
 source $HOME/.vim/themes/airline.vim
 source $HOME/.vim/plug-config/nerdtree.vim
-source $HOME/.vim/plug-config/which-key.vim
+" source $HOME/.vim/plug-config/which-key.vim
 
